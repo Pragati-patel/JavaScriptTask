@@ -17,6 +17,7 @@ The route she follows:
 Based on this there are different tasks for which you have to write the code and generate the output according to the task. The task are given below:
 
 1. Calculate total distance covered: Complete the function in file `calculateTotalDistance.js` with your stunning logic to calculate the total distance she covered in her journey.
+2. Get the direction she is facing: Complete the function in file `getFacingDirection.js` and inform us about the direction she is facing now.
 
 ## Code of Conduct
 
