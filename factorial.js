@@ -8,3 +8,10 @@
 
 // Sample Input--------- 2
 // Sample Output------ 2
+const input =2;
+let factorial=1
+for(let i = input; i>=1;i--)
+{
+factorial=factorial*i
+}
+console.log( "Factorial of", input, "is", factorial)
