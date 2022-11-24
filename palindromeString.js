@@ -8,3 +8,8 @@
 
 // Sample Input ------ aba
 // Sample Output-------- YES
+
+const str='aba'
+if(str.split('').reverse().join('')===str)
+console.log('YES')
+else console.log('NO')
