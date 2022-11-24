@@ -12,3 +12,16 @@
 // Sample Input -------- abcdE
 // Sample Output----------ABCDe
 //  -->
+
+
+const s = "abcdE"
+const res=[];
+// console.log(s.split(''))
+(s.split('')).map((i)=>{
+    if(i===i.toUpperCase() )
+    res.push(i.toLowerCase())
+    else
+    res.push(i.toUpperCase())
+
+})
+console.log(res)
