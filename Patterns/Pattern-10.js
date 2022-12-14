@@ -1,7 +1,7 @@
-let n=7
+let n=9
 let str=''
 let a=1
-let space=3
+let space=n/2
 for(let i=1;i<=n;i++){
     for(let z=1;z<=space;z++){
         str=str+' '
@@ -10,7 +10,7 @@ for(let i=1;i<=n;i++){
         str=str+'*'
     }
     str=str+'\n'
-    if(i<=3){
+    if(i<=n/2){
         a=a+2
         space-=1
     }else {
