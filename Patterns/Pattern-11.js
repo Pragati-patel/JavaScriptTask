@@ -1,3 +1,5 @@
+// trishul pattern
+
 let n = 8
 let str = ''
 for (let i = 1; i <= n; i++) {

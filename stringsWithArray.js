@@ -5,7 +5,9 @@
 let str='abcbdbd'
 let res=[]
 let temp=''
-let array=str.split()
-for(let i=0;i<=array.length;i++){
-
+let array=str.split('')
+for(let i=0;i<=array.length-1;i++){
+   temp=temp+array[i]+'.'
+   res.push(temp.slice(0, -1))
 }
+console.log(res)
